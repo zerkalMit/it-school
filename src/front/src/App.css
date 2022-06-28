@@ -1,0 +1,29 @@
+html {
+  font-size: 10px;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: var(--color-bg-secondary);
+  overflow: hidden;
+}
+.bg{
+  background-color: var(--color-bg-secondary);
+}
+.container {
+  display: flex;
+}
+.container-column {
+  display: flex;
+  flex-direction: column;
+}
+.justify-center {
+  justify-content: center;
+}
+.align-center {
+  align-items: center;
+}
+.flex-grow-1 {
+  flex-grow: 1;
+}
